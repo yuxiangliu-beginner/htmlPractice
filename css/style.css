@@ -1,0 +1,17 @@
+body{
+  margin: 0px;
+}
+table {
+   border-collapse: collapse;
+   background: gold;
+   text-align:center;
+   width: 100%;
+
+}
+.caption_table {
+   background-color: red;
+}
+/* #caption_table{
+  color:white;
+  background-color: yellow;
+} */
