@@ -3,13 +3,16 @@ body{
 }
 table {
    border-collapse: collapse;
-   background: gold;
+   background: gold !important;
    text-align:center;
    width: 100%;
 
 }
 .caption_table {
    background-color: red;
+}
+#option_name{
+  background-color: plum;
 }
 /* #caption_table{
   color:white;
