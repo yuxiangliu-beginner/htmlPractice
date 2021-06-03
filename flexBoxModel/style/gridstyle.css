@@ -60,9 +60,9 @@
   /* from begin to end  */
   grid-column:1/-1;
 
-  grid-row:span 2;
+  /* grid-row:span 2;
   grid-column:span 2;
-  
+   */
 
 }
 .grid-item-2{
