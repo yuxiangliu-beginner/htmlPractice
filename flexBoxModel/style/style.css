@@ -1,0 +1,62 @@
+.{
+  box-sizing: border-box;
+}
+.box-item{
+  background-color: hotpink;
+  border: 5px solid mediumvioletred;
+  width: 200px;
+  margin: 20px;
+}
+.box-item1{
+  height:100px;
+  /* min-height:100px; */
+
+  /* not change the size when adjusting the web view */
+  flex-shrink: 0;
+}
+.box-item2{
+  height:200px;
+  /* min-height:200px; */
+
+    flex-grow:  2;
+    flex-basis: 0;
+}
+.box-item3{
+  height:300px;
+  /* min-height:300px; */
+
+  /* auto fill to left */
+  flex-grow:  1;
+  flex-basis: 0;
+}
+.flexbox-container{
+  display: flex;
+  /* change direction of flex  */
+  flex-direction: row;
+  /* set content at center*/
+  /* justify-content: center; */
+  /* averaging space */
+  /* justify-content:space-between; */
+
+  /* averaging space between web*/
+  justify-content:center;
+
+  /* set content at left*/
+  /* justify-content: flex-start; */
+
+  /* set content at right*/
+  /* justify-content: flex-end; */
+
+/* set content at bottom*/
+  /* align-items: flex-end; */
+
+
+  /* set content at center*/
+    align-items: center;
+
+    /* auto switch line */
+    /* flex-wrap: wrap;
+    align-content: center; */
+
+
+}

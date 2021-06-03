@@ -1,0 +1,73 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+.grid-item{
+  background-color: gold;
+  border: 5px solid mediumvioletred;
+  font-size: 25px;
+}
+.grid-container{
+  display: grid;
+  /* grid-template-columns: 200px 100px;
+  grid-template-rows: 200px 100px 200px;
+   */
+   /* fr :fraction */
+   /* grid-template-columns: 2fr 1fr 1fr 2fr;
+   grid-template-rows: 200px 100px 200px; */
+
+
+   grid-template-columns: repeat(3,1fr);
+   /* auto fill all text in the grid */
+   grid-template-rows: minmax(150px,auto) ;
+   grid-auto-rows: 150px;
+   /* set gap between column */
+   /* grid-column-gap: 20px; */
+
+   /* set gap between row  */
+   /* grid-row-gap:10px; */
+
+   /* set gap */
+   grid-gap:20px;
+
+   /* grid-template-columns: repeat(2,2fr 1fr);
+   grid-template-rows: 200px 100px 200px; */
+
+
+   /* grid-template-areas:
+   "anything anything"
+   "sidebar content"
+   "sidebar content";
+}
+.grid-item-1{
+  grid-area:anything;
+}
+.grid-item-2{
+  grid-area:sidebar;
+}
+.grid-item-3{
+  grid-area:content;
+} */
+
+}
+.grid-item-1{
+  /* grid-area:anything; */
+  /* grid-column-start: 1; */
+  /* including border so 2 is not fit */
+  /* grid-column-end: 3; */
+  /* to the end  */
+  /* grid-column-end: -1; */
+
+  /* from begin to end  */
+  grid-column:1/-1;
+
+  grid-row:span 2;
+  grid-column:span 2;
+  
+
+}
+.grid-item-2{
+  /* grid-area:sidebar; */
+}
+.grid-item-3{
+  /* grid-area:content; */
+}

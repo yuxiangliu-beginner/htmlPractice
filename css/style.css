@@ -36,7 +36,46 @@ table {
   background-color: lightblue;
   width: 100px;
   height: 100px;
-  padding :20 px;
+  padding :50 px;
   border: 5px solid black;
   margin: 20px;
 }
+.view-width{
+  background-color: mediumvioletred;
+  width: 50vw;
+}
+.view-height{
+  height: 50vh;
+  background-color: red;
+}
+.percent{
+  background-color: hotpink;
+  width: 50%
+}
+.pixel{
+  background-color: lightblue;
+  width:200px
+}
+.parent{
+  font-size: 30px;
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 50%;
+}
+.one-rem{
+  font-size: 1rem;
+}
+.one-em{
+  font-size: 1em;
+}
+.two-rem{
+  font-size: 2rem;
+}
+.two-em{
+  font-size: 2em;
+}
+/* % - to parent */
+/* vm , vh, to view */
+/* rem : html root size  */
+/* em : parent size */
+/* % have some view with em  */
