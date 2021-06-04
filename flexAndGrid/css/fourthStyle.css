@@ -1,0 +1,14 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+.box-item
+{
+  background-color: gold;
+  border: 5px solid mediumvioletred;
+  font-size: 25px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}

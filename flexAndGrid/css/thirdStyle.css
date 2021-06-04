@@ -1,0 +1,37 @@
+.{
+  box-sizing: border-box;
+}
+.box-item-H
+{
+  .width: 100vm;
+}
+.box-item-F
+{
+  .width: 100vm;
+}
+
+.box-item{
+  background-color: hotpink;
+  border: 5px solid mediumvioletred;
+  margin: 20px;
+  height: 100px;
+  align-items: center;
+}
+.flex-container{
+  display: flex;
+  align-items: center;
+}
+.box-item-1{
+  fix-width: 150px;
+
+  flex-grow: 0;
+}
+.box-item-2{
+  display: flex;
+  width: 150px;
+  flex-grow: 1;
+}
+.box-item-3{
+    fix-width: 150px;
+  flex-grow: ;
+}
