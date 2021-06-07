@@ -4,6 +4,7 @@
 }
 body{
   background-color: gold;
+  margin: 0;
 }
 .header{
   display: flex;
@@ -69,4 +70,32 @@ body{
   display: flex;
   align-items: center;
   margin: 1rem;
+}
+.mainbody{
+  display: flex;
+  height: calc(100vh - 70px);
+}
+.sidebar{
+  background-color: white;
+  width: 230px;
+}
+.sidebar_category{
+  display: flex;
+  cursor: pointer;
+  padding: 15px 25px;
+  align-items: center;
+}
+.sidebar-font{
+  font-size: 0.9rem;
+  margin-left: 24px;
+}
+.sidebar_category.active{
+  background: #E5E5E5;
+  font-weight: bold;
+}
+.sidebar_category:hover{
+  background-color: #F9F9F9;
+}
+.sidebar_category.active:hover{
+  background-color: #DDD;
 }
