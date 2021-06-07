@@ -36,3 +36,37 @@ body{
   height:36px;
   border-radius: 50%;
 }
+/* design containter width for fill in the element  */
+.search-bar{
+  display: flex;
+  margin: 0 4rem;
+  flex-grow: 1
+
+}
+.search-input{
+  width: 100%;
+  font-size: 1rem;
+  padding:0.6em;
+  border: 1px solid #C6C6C6;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0 ;
+}
+.search-button{
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 1px solid #C6C6C6;
+    background-color: #F8F8F8;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0 ;
+    border-left: none;
+    cursor: pointer;
+}
+.search-button:hover{
+  background-color:#F0F0F0;
+}
+.search-bar a{
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
